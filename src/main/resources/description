@@ -1,0 +1,17 @@
+BeforeClass:- Used to call the "savvytime" website.
+BeforeMethod:- Used to test each "test" individually
+EnteringData1- Enter Hyderabad Details.
+EnteringData2- Enter New York Details.
+diffDate- Difference between Hyderabad and New York timings in minutes.
+dateCheck- Automating the date picking function and checking for the functionality.
+ScrollTest- Used to check the functionality of the progress bar.
+DeleteCheck- Deleting the selected Area.
+Swapping- Checking the functionality of the swapping button.
+Permalink- Used to test the functionality of the Permanent link button and the text field associated to it.
+
+___________________________________________________________________
+
+Yet to do:
+
+24 hour format check
+Other buttons check

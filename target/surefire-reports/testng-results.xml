@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.manish.SavvySearchTest" duration-ms="16818" started-at="2020-01-09T11:02:46 IST" finished-at="2020-01-09T11:03:03 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16818" started-at="2020-01-09T11:02:46 IST" finished-at="2020-01-09T11:03:03 IST">
+      <class name="com.manish.SavvySearchTest">
+        <test-method status="PASS" signature="searchload()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="searchload" is-config="true" duration-ms="6096" started-at="2020-01-09T11:02:46 IST" finished-at="2020-01-09T11:02:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchload -->
+        <test-method status="PASS" signature="enteringData1()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="enteringData1" duration-ms="1992" started-at="2020-01-09T11:02:53 IST" finished-at="2020-01-09T11:02:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringData1 -->
+        <test-method status="PASS" signature="enteringData2()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="enteringData2" duration-ms="2138" started-at="2020-01-09T11:02:55 IST" depends-on-methods="com.manish.SavvySearchTest.enteringData1" finished-at="2020-01-09T11:02:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enteringData2 -->
+        <test-method status="PASS" signature="dateCheck()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="dateCheck" duration-ms="2287" started-at="2020-01-09T11:02:57 IST" depends-on-methods="com.manish.SavvySearchTest.enteringData2" finished-at="2020-01-09T11:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dateCheck -->
+        <test-method status="PASS" signature="diffDate()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="diffDate" duration-ms="146" started-at="2020-01-09T11:02:59 IST" depends-on-methods="com.manish.SavvySearchTest.enteringData2" finished-at="2020-01-09T11:02:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- diffDate -->
+        <test-method status="PASS" signature="scrollTest()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="scrollTest" duration-ms="542" started-at="2020-01-09T11:02:59 IST" depends-on-methods="com.manish.SavvySearchTest.dateCheck" finished-at="2020-01-09T11:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTest -->
+        <test-method status="PASS" signature="scrollTest1()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="scrollTest1" duration-ms="498" started-at="2020-01-09T11:03:00 IST" depends-on-methods="com.manish.SavvySearchTest.scrollTest" finished-at="2020-01-09T11:03:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollTest1 -->
+        <test-method status="PASS" signature="swapTest()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="swapTest" duration-ms="1403" started-at="2020-01-09T11:03:00 IST" depends-on-methods="com.manish.SavvySearchTest.scrollTest1" finished-at="2020-01-09T11:03:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swapTest -->
+        <test-method status="PASS" signature="deleteCheck()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="deleteCheck" duration-ms="1490" started-at="2020-01-09T11:03:02 IST" depends-on-methods="com.manish.SavvySearchTest.swapTest" finished-at="2020-01-09T11:03:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCheck -->
+        <test-method status="PASS" signature="permaLinkTest()[pri:0, instance:com.manish.SavvySearchTest@5025a98f]" name="permaLinkTest" duration-ms="173" started-at="2020-01-09T11:03:03 IST" depends-on-methods="com.manish.SavvySearchTest.deleteCheck" finished-at="2020-01-09T11:03:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- permaLinkTest -->
+      </class> <!-- com.manish.SavvySearchTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.manish.SavvySearchTest -->
+</testng-results>

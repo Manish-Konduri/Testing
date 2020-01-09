@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1"  parallel="testes">
+    <test name="Regression suite 1" >
+        <classes>
+            <class name="com.manish.SavvySearchTest"/>
+        </classes>
+    </test>
+
+</suite>
